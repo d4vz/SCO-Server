@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Malar&family=Inter:wght@200&family=Jura:wght@400;600&family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Inter:wght@200&family=Jura:wght@400;600&family=Mukta+Malar:wght@300&family=Prompt&display=swap');
 @import url(animate.css);
-@import url(rectangles.css);
+@import url(rectangles.css  );
 
 
 *{
@@ -20,6 +20,7 @@ main{
     font-family: "Roboto";
     -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    overflow: hidden;
 }
 
 div.container-box{
@@ -52,7 +53,7 @@ aside{
 }
 
 aside.right{
-    background-color: #8FC9FD;
+    background-image: linear-gradient(180deg, #93CCFF, #70B2EF);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +63,7 @@ aside.right img{
     width: 90%;
     height: 90%;
     animation: float 6s ease infinite;
+    z-index: 2;
 }
 
 aside.left{
