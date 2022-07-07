@@ -12,18 +12,13 @@ textarea:focus, input:focus {
 }
 
 main{
-    max-width: 1440px;
+    max-width: 1920px;
     margin: auto;
     font-family: "Roboto";
 }
 
 div.container-box{
     display: flex;
-}
-
-dov.tittle{
-    display: flex;
-    flex-direction: column;
 }
 
 div.container-box h1{
@@ -56,8 +51,8 @@ aside.right{
 }
 
 aside.right img{
-    width: 70%;
-    height: 70%;
+    width: 90%;
+    height: 90%;
 }
 
 aside.left{
@@ -80,15 +75,18 @@ div.input-container{
     gap: 40px;
 }
 
+
 div.input-box input#nameId{
     padding-left: 20px;
     padding-right: 20px;
     font-size: 25px;
     border: 5px solid #A0D2FF;
+    background: #A0D2FF;
     border-radius: 6px;
     width: 487px;
     height: 72px;
 }
+
 
 div.input-box input#namePass{
     padding-left: 20px;
@@ -100,25 +98,15 @@ div.input-box input#namePass{
     width: 487px;
     height: 72px;
 }
+
+div.input-box input#nameId:focus, div.input-box input#namePass:focus{
+    background-color: transparent;    
+}
+
 div.input-button{
     display: flex;
     justify-content: center ;
 }
-
-/* div.input-button button{
-    background: #328ADB;
-    border-radius: 6px;
-    width: 537px;
-    height: 72px;
-    border: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #E7E7E7;
-} */
 
 .button {
     width: 537px;
