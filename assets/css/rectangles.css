@@ -1,0 +1,11 @@
+div.rectangle1-form{
+    position: absolute;
+    width: 107.34px;
+    height: 107.34px;
+    left: 889.91px;
+    top: 812.34px;
+
+    border: 3px solid #87C3FA;
+    border-radius: 6px;
+    transform: rotate(-0.05deg);
+}
