@@ -62,7 +62,7 @@ aside.right{
 aside.right img{
     width: 90%;
     height: 90%;
-    animation: float 6s ease infinite;
+    animation: float 6s infinite;
     z-index: 2;
 }
 
@@ -114,6 +114,11 @@ div.input-box input#nameId:focus, div.input-box input#namePass:focus{
 div.input-button{
     display: flex;
     justify-content: center ;
+}
+
+div.wrong-pass{
+    color: red;
+    display: none;
 }
 
 .button {
