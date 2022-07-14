@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Malar&family=Inter:wght@200&family=Jura:wght@400;600&family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Inter:wght@200&family=Jura:wght@400;600&family=Mukta+Malar:wght@300&family=Prompt&display=swap');
 @import url(animate.css);
-@import url(rectangles.css  );
+@import url(rectangles.css);
 
 
 *{
@@ -39,12 +39,15 @@ div.container-box h1{
     line-height: 85px;
 }
 
-div.line-form{
-    height: 7px;
-    width: 145px;
-    background: #A0D2FF;
+div.tittle{
+    display: flex;
+    flex-direction: column;
+}
 
-    
+div.line-form{
+    width: 148.17px;
+    height: 7px;
+    background: #A0D2FF;
 }
 
 aside{
@@ -57,6 +60,7 @@ aside.right{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 aside.right img{
